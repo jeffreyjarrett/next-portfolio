@@ -1,14 +1,14 @@
 // jshint esversion: 6
 
 import Link from 'next/link';
+import Layout from '../components/Layout';
 
 export default() => (
-  <div>
-    <h1>About</h1>
+  <Layout title="About">
     <Link href="/index">
     <a>Go to home</a>
     </Link>
     <p>A JavaScript Programmer</p>
     <img src="/static/js-logo.png" alt="JavaScript" height="200px"/>
-  </div>
+  </Layout>
 );

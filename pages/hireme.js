@@ -1,13 +1,14 @@
 // jshint esversion: 6
 
+import Layout from '../components/Layout';
 const HireMe = () => (
-  <div>
-    <h1>Hire me</h1>
+
+  <Layout title="Hire Me">
     <p>
       You can hire me at{" "}
       <a href="mailto:jeffreyjarrett8@gmail.com">jeffreyjarrett8@gmail.com</a>
       </p>
-    </div>
+    </Layout>
 );
 
 export default HireMe;
